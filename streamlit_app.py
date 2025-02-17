@@ -10,8 +10,8 @@ from openai import OpenAI
 import streamlit as st
 import toml
 # 读取 config.toml 文件
-# with open("config.toml", "r") as f:
-    # config = toml.load(f)
+with open("./streamlit/config.toml", "r") as f:
+    config = toml.load(f)
 
 # 从 config 中获取 API_KEY 和 BASE_URL
 key = config["openai"]["api_key"]
