@@ -48,6 +48,7 @@ def main():
         page_icon="🚀",
     )
     st.title("DeepSeek-R1-671B")
+    st.subheader("版本：0.01")
     # 在title下边小标题，写上版本 0.01
     st.sidebar.markdown("###  小bug待解决：第一次对话的思考内容无法获取,第二轮及以后正常   ###")
     # st.sidebar.header("API 配置")
