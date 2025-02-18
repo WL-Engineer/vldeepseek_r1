@@ -3,7 +3,7 @@
 @time: 2025/2/17 19:01  
 @file: streamlit_app.py  
 @project: VL_deepseek_r1  
-@description: 这里是文件的描述信息  
+@description: streamlit入口app文件
 """
 
 from openai import OpenAI
