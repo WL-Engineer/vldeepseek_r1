@@ -94,6 +94,9 @@ def main():
             st.chat_message("assistant").write(reasoning_content)
             st.write("\n" + "=" * 30 + "最终答案" + "=" * 30 + "\n")
             st.chat_message("assistant").write(answer_content)
+            # 输出本次查询消耗的token
+            st.write("\n" + "=" * 30 + "本次查询消耗tokens" + "=" * 30 + "\n")
+            st.write(f"本次查询消耗的token：{answer.usage.total_tokens}")
 
         print(len(st.session_state.messages))
 
